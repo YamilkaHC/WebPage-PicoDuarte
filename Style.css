@@ -1,0 +1,36 @@
+:root{
+
+    --Black: #2A2D36;
+    --LightRose:  #F4DDCB;
+    --DarkRose:   #927773;
+    --Title: 'Limelight', cursive;
+    --Paragraf: 'Montserrat', sans-serif;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;   
+}
+
+h1{
+    font-family: var(--Title);
+    font-size: 2rem;
+}
+
+h1{
+    font-family: var(--Title);
+    font-size: 1.6rem;
+}
+
+p, h3{
+
+    font-size: 1.1rem;
+    font-family: var(--Tipografy);
+    font-weight: lighter;
+    line-height: 1;
+    text-align: justify;
+}
