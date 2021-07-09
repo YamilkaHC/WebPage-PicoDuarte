@@ -1,8 +1,8 @@
-:root{
+:root {
 
     --Black: #2A2D36;
-    --LightRose:  #F4DDCB;
-    --DarkRose:   #927773;
+    --LightRose: #F4DDCB;
+    --DarkRose: #927773;
     --Title: 'Limelight', cursive;
     --Paragraf: 'Montserrat', sans-serif;
 }
@@ -13,23 +13,22 @@ body {
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    margin-left: 0px;   
+    margin-left: 0px;
 }
 
-pre{
+pre {
     font-family: var(--Title);
     font-size: 8em;
     color: var(--Black);
-   
     margin: 0px;
 }
 
-h2{
+h2 {
     font-family: var(--Title);
     font-size: 1.6rem;
 }
 
-p, h3{
+p, h3 {
     font-size: 1.1rem;
     font-family: var(--Tipografy);
     font-weight: lighter;
@@ -37,8 +36,7 @@ p, h3{
     text-align: justify;
 }
 
-header{
-    
+header {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -47,66 +45,55 @@ header{
     align-items: flex-start;
     padding: 20px 0 0 0;
     background-color: var(--LightRose);
-    }
+}
 
-nav{
+nav {
     padding: 20px 65px 0 0;
-  }
-  
-  
-  
-  #logo{
-  height:50px ;
-  width:50px ;
-  padding-left: 1.5rem;
-  }
-   
-  a {
-      font-family: var(--Paragraf);
-      color: var(--Black);
-      text-decoration: none;
-      padding-right: 1.7rem;
-      padding-left: 1.7rem;
-      text-shadow: 2px 2px white;
-     
-  }
+}
 
-  a:hover{
+#logo {
+    height: 50px;
+    width: 50px;
+    padding-left: 1.5rem;
+}
 
-color: white;
-text-shadow: none;
+a {
+    font-family: var(--Paragraf);
+    color: var(--Black);
+    text-decoration: none;
+    padding-right: 1.7rem;
+    padding-left: 1.7rem;
+    text-shadow: 2px 2px white;
+}
 
-  }
+a:hover {
+    color: white;
+    text-shadow: none;
+}
 
-  .Fondo{ 
+.Fondo {
     height: 90vh;
     display: flex;
     flex-direction: row;
     align-items: stretch;
     flex-shrink: 1;
     width: 100%;
-  }
-  
-  #Fondo1 {
-      width: 40%;
-      height: 85vh;
-    }
+}
 
-  #Fondo2{
+#Fondo1 {
+    width: 40%;
+    height: 85vh;
+}
+
+#Fondo2 {
     width: 65%;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 15%;
+}
 
-
-
-
-  
-    }
-
-.button{
-
+.button {
     width: 35%;
     height: 50px;
     background-color: var(--DarkRose);
@@ -116,14 +103,13 @@ text-shadow: none;
     border-style: none;
     margin-left: 2%;
     text-shadow: 3px 3px 3px var(--Black);
-    text-align:left;
+    text-align: left;
     border-radius: 8px;
     box-shadow: 0px 4px 9px var(--Black);
     font-weight: bold;
 }
 
-.button:hover{
-
+.button:hover {
     color: var(--Black);
     text-shadow: none;
 }
