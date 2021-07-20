@@ -103,7 +103,7 @@ section {
 }
 
 #Frase-section {
-    background-image: url("Photos/FraseFondo.gif");
+    background-image: url("../Photos/FraseFondo.gif");
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
