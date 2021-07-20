@@ -45,6 +45,15 @@ p, h3 {
     color: var(--Black);
 }
 
+h4{
+    font-size: 0.7rem;
+    font-family: var(--Paragraf);
+    font-weight:normal;
+    text-align: center;
+
+    color: white;
+
+}
 
 
 section {
@@ -244,4 +253,11 @@ a:hover {
     content: "\2212";
     display: block;
     color: var(--Rose);
+}
+footer{
+background-color: var(--Black);
+color:white;
+text-align: center;
+padding: 20px 0 20px 0;
+margin-top: 50px;
 }
