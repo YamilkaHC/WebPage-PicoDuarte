@@ -29,7 +29,14 @@ h2 {
     color: var(--Black);
 }
 
-pre, p, h3 {
+pre{
+    font-family: var(--Title);
+    font-size: 8em;
+    color: var(--Black);
+    margin: 0px;
+}
+
+p, h3 {
     font-size: 1rem;
     font-family: var(--Paragraf);
     font-weight:normal;
@@ -82,6 +89,7 @@ section {
     margin-block-start: 2em;
     margin-block-end: 10em;
     font-size: 2rem;
+    font-family: var(--Paragraf);
     text-align: center;
 }
 
@@ -163,9 +171,19 @@ a {
     font-family: var(--Paragraf);
     color: var(--Black);
     text-decoration: none;
-    padding-right: 1.7rem;
-    padding-left: 1.7rem;
+    padding-right: 1.4rem;
+    padding-left: 1rem;
     text-shadow: 2px 2px white;
+}
+#proceso{
+    background-color: var(--DarkRose);
+    color: white;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 4px 4px 4px var(--Black);
+    border-radius: 5px;
+
 }
 
 a:hover {
@@ -173,6 +191,11 @@ a:hover {
     text-shadow: none;
 }
 
+#proceso:hover{
+    color:var(--Black);
+    text-shadow: none;
+
+}
 .Fondo {
     height: 90vh;
     display: flex;
@@ -192,12 +215,12 @@ a:hover {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 15%;
+    padding-left: 14%;
 }
 
 .button {
     width: 35%;
-    height: 50px;
+    height: 38px;
     background-color: var(--DarkRose);
     color: white;
     font-family: var(--Paragraf);
@@ -209,6 +232,8 @@ a:hover {
     border-radius: 8px;
     box-shadow: 0px 4px 9px var(--Black);
     font-weight: bold;
+    padding-top: 12px;
+    
 }
 
 .button:hover {
