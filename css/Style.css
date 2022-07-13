@@ -297,6 +297,7 @@ footer {
     text-align: center;
     padding: 20px 0 20px 0;
     margin-top: 50px;
+<<<<<<< HEAD
 }
 
 
@@ -320,6 +321,31 @@ footer {
     margin: 5rem 0px 0px 0px;
 }
 
+=======
+}
+
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-div {
+    max-height: 0px;
+    display: none;
+    transition: max-height 0.5s ease;
+}
+
+
+.title-rute-r {
+    width: 40%;
+}
+
+.title-rute-l {
+    width: 40%;
+    margin: 5rem 0px 0px 0px;
+}
+
+>>>>>>> fe8052cb0d2fe8496987bd18c1284100723e2c43
 #menu-botton{
     cursor: pointer;
 }
@@ -356,7 +382,11 @@ footer {
     .mobile-div.active {
         position: absolute;
         display: flex;
+<<<<<<< HEAD
         max-height: 410px;
+=======
+        max-height: 300px;
+>>>>>>> fe8052cb0d2fe8496987bd18c1284100723e2c43
         transition: max-height 0.5s ease;
         background: #f4ddcb;
         flex-direction: column;
@@ -378,10 +408,13 @@ footer {
         font-size: 1.3rem;
     }
 
+<<<<<<< HEAD
     #Frase-section {
         background-size: 70%;
     }
 
+=======
+>>>>>>> fe8052cb0d2fe8496987bd18c1284100723e2c43
 }
 
 
