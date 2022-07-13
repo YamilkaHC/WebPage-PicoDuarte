@@ -7,6 +7,10 @@
     --Paragraf: 'Montserrat', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     display: block;
     margin: 0px;
@@ -117,7 +121,7 @@ section {
 #Frase-section {
     background-image: url("../Photos/FraseFondo.gif");
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 40%;
     background-position: center;
     background-position-y: top;
     margin-block-start: 10em;
@@ -352,7 +356,7 @@ footer {
     .mobile-div.active {
         position: absolute;
         display: flex;
-        max-height: 300px;
+        max-height: 410px;
         transition: max-height 0.5s ease;
         background: #f4ddcb;
         flex-direction: column;
@@ -372,6 +376,10 @@ footer {
 
     .frase {
         font-size: 1.3rem;
+    }
+
+    #Frase-section {
+        background-size: 70%;
     }
 
 }
