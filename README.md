@@ -7,7 +7,8 @@ El proyecto consiste en una una pagina web de una sola pagina, esta tiene una se
 
 <https://yamilkahc.github.io/WebPage-PicoDuarte/>
 
-![Uploading Group 34 (1).png…]()
+![Group 34 (1)](https://user-images.githubusercontent.com/83675050/178857304-c40fa1f7-4ae9-4fb6-9f80-4655316efed0.png)
+
 
 #### 🛠️Leguajes utilizados 
 
